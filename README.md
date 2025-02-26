@@ -1,1 +1,5 @@
-# WEATHER-PREDICTION
+# This project introduces a machine learning-based weather classification system that can forecast weather conditions from important meteorological parameters. The model uses sophisticated supervised learning methods, such as Decision Tree Classifier, K-Nearest Neighbors (KNN), Support Vector Classifier (SVC), and Naïve Bayes, to provide high predictive accuracy. By using hyperparameter tuning and cross-validation, the system is optimized for performance and reliability.
+
+The dataset includes necessary weather features like temperature, humidity, wind speed, atmospheric pressure, cloud cover, season, and location. OneHot and Ordinal Encoding are used for categorical data, whereas numerical features are subjected to normalization to ensure data consistency. SMOTE (Synthetic Minority Over-sampling Technique) is used to handle class imbalances, making the model more robust.
+
+To further optimize performance, GridSearchCV is utilized for hyperparameter tuning to guarantee the most efficient model setup. The last trained model and the encoding pipeline are serialized using Pickle for easy deployment. The system is embedded in a Streamlit-based web application, which offers an interactive and user-friendly visual interface for real-time weather classification with visual improvements and dynamic UI elements.
